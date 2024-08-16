@@ -149,8 +149,8 @@
 }
 
 @keyframes noteAnimate {
-    from {left: -735px;}
-    to {left: 735px;}
+    from {right: -735px;}
+    to {right: 735px;}
 }
 
 /*** Topbar End ***/
@@ -216,7 +216,7 @@
 }
 
 #searchModal .modal-content {
-    background: rgba(255, 255, 255, .8);
+    background: rgba(228, 33, 113, .8);
 }
 /*** Navbar End ***/
 
@@ -224,7 +224,7 @@
 /*** Features Start ***/
 .features {
     width: 100%;
-    background: linear-gradient(rgba(26, 125, 255, 0.5), rgba(255, 255, 255, 0.3)), url(../img/features-background.jpg);
+    background: linear-gradient(rgba(228, 33, 113, 1), rgba(255, 255, 255, 0.3));
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -245,7 +245,7 @@
     width: 68%;
     top: 50%;
     transform: translateY(-50%);
-    height: 1px;
+    height: 0px;
     right: 0;
     opacity: 0.2;
 }
@@ -266,7 +266,7 @@
     transition: 0.5s;
     margin-right: 10px;
     border: 1px solid var(--bs-primary);
-    color: var(--bs-dark);
+    color: rgba(228, 33, 113, 1);
     border-radius: 20px;
 }
 
@@ -279,13 +279,13 @@
     padding: 2px 20px;
     transition: 0.5s;
     border: 1px solid var(--bs-primary);
-    color: var(--bs-dark);
+    color: rgba(228, 33, 113, 1);
     border-radius: 20px;
 }
 
 .latest-news .latest-news-carousel.owl-carousel .owl-nav .owl-prev:hover,
 .latest-news .latest-news-carousel.owl-carousel .owl-nav .owl-next:hover {
-    background: var(--bs-primary);
+    background: rgba(228, 33, 113, 1);
     color: var(--bs-white);
     border-radius: 10px;
 }
@@ -306,7 +306,7 @@
     transition: 0.5s;
     margin-right: 10px;
     border: 1px solid var(--bs-primary);
-    color: var(--bs-dark);
+    color: rgba(228, 33, 113, 1);
     border-radius: 20px;
 }
 
@@ -319,13 +319,13 @@
     padding: 2px 20px;
     transition: 0.5s;
     border: 1px solid var(--bs-primary);
-    color: var(--bs-dark);
+    color: rgba(228, 33, 113, 1);
     border-radius: 20px;
 }
 
 .populer-news .whats-carousel.owl-carousel .owl-nav .owl-prev:hover,
 .populer-news .whats-carousel.owl-carousel .owl-nav .owl-next:hover {
-    background: var(--bs-primary);
+    background: rgba(228, 33, 113, 1);
     color: var(--bs-white);
     border-radius: 10px;
 }
@@ -378,7 +378,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background: linear-gradient(rgba(26, 125, 255, 0.7), rgba(255, 255, 255, 0.7));
+    background: linear-gradient(rgba(228, 33, 113, 1), rgba(255, 255, 255, 0.7));
     z-index: 2;
 }
 /*** Banner Section End ***/
